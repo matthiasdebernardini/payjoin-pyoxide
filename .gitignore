@@ -3,3 +3,9 @@
 .devenv*
 devenv.local.nix
 
+
+
+# Added by cargo
+
+/target
+/Cargo.lock
