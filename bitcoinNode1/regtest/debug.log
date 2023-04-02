@@ -1,0 +1,421 @@
+
+
+
+
+
+2023-04-02T22:11:32Z Bitcoin Core version v24.0.1 (release build)
+2023-04-02T22:11:32Z Using the 'arm_shani(1way,2way)' SHA256 implementation
+2023-04-02T22:11:32Z Default data directory /Users/matthiasdebernardini/Library/Application Support/Bitcoin
+2023-04-02T22:11:32Z Using data directory /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest
+2023-04-02T22:11:32Z Config file: /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/bitcoin.conf
+2023-04-02T22:11:32Z Config file arg: regtest="1"
+2023-04-02T22:11:32Z Config file arg: server="1"
+2023-04-02T22:11:32Z Command-line arg: conf="/Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/bitcoin.conf"
+2023-04-02T22:11:32Z Command-line arg: datadir="/Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1"
+2023-04-02T22:11:32Z Command-line arg: port="19000"
+2023-04-02T22:11:32Z Command-line arg: regtest=""
+2023-04-02T22:11:32Z Command-line arg: rpcport="19001"
+2023-04-02T22:11:32Z Using at most 125 automatic connections (285 file descriptors available)
+2023-04-02T22:11:32Z Using 16 MiB out of 16 MiB requested for signature cache, able to store 524288 elements
+2023-04-02T22:11:32Z Using 16 MiB out of 16 MiB requested for script execution cache, able to store 524288 elements
+2023-04-02T22:11:32Z Script verification uses 7 additional threads
+2023-04-02T22:11:32Z scheduler thread start
+2023-04-02T22:11:32Z [http] creating work queue of depth 16
+2023-04-02T22:11:32Z Using random cookie authentication.
+2023-04-02T22:11:32Z Generated RPC authentication cookie /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/.cookie
+2023-04-02T22:11:32Z [http] starting 4 worker threads
+2023-04-02T22:11:32Z Using wallet directory /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/wallets
+2023-04-02T22:11:32Z init message: Verifying wallet(s)…
+2023-04-02T22:11:32Z Using /16 prefix for IP bucketing
+2023-04-02T22:11:32Z init message: Loading P2P addresses…
+2023-04-02T22:11:32Z Creating peers.dat because the file was not found ("/Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/peers.dat")
+2023-04-02T22:11:32Z init message: Loading banlist…
+2023-04-02T22:11:32Z Recreating the banlist database
+2023-04-02T22:11:32Z SetNetworkActive: true
+2023-04-02T22:11:32Z Failed to read fee estimates from /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/fee_estimates.dat. Continue anyway.
+2023-04-02T22:11:32Z Cache configuration:
+2023-04-02T22:11:32Z * Using 2.0 MiB for block index database
+2023-04-02T22:11:32Z * Using 8.0 MiB for chain state database
+2023-04-02T22:11:32Z * Using 440.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2023-04-02T22:11:32Z init message: Loading block index…
+2023-04-02T22:11:32Z Validating signatures for all blocks.
+2023-04-02T22:11:32Z Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2023-04-02T22:11:32Z Switching active chainstate to Chainstate [ibd] @ height -1 (null)
+2023-04-02T22:11:32Z Opening LevelDB in /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/blocks/index
+2023-04-02T22:11:32Z Opened LevelDB successfully
+2023-04-02T22:11:32Z Using obfuscation key for /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/blocks/index: 0000000000000000
+2023-04-02T22:11:32Z LoadBlockIndexDB: last block file = 0
+2023-04-02T22:11:32Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2023-04-02T22:11:32Z Checking all blk files are present...
+2023-04-02T22:11:32Z Initializing databases...
+2023-04-02T22:11:32Z Opening LevelDB in /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/chainstate
+2023-04-02T22:11:32Z Opened LevelDB successfully
+2023-04-02T22:11:32Z Wrote new obfuscate key for /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/chainstate: 237d2ae10b9c3d9f
+2023-04-02T22:11:32Z Using obfuscation key for /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/chainstate: 237d2ae10b9c3d9f
+2023-04-02T22:11:32Z init message: Verifying blocks…
+2023-04-02T22:11:32Z  block index              51ms
+2023-04-02T22:11:32Z Setting NODE_NETWORK on non-prune mode
+2023-04-02T22:11:32Z loadblk thread start
+2023-04-02T22:11:32Z UpdateTip: new best=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 version=0x00000001 log2_work=1.000000 tx=1 date='2011-02-02T23:16:42Z' progress=1.000000 cache=0.0MiB(0txo)
+2023-04-02T22:11:32Z Failed to open mempool file from disk. Continuing anyway.
+2023-04-02T22:11:32Z loadblk thread exit
+2023-04-02T22:11:32Z block tree size = 1
+2023-04-02T22:11:32Z nBestHeight = 0
+2023-04-02T22:11:32Z torcontrol thread start
+2023-04-02T22:11:32Z Bound to 127.0.0.1:18445
+2023-04-02T22:11:32Z Bound to [::]:19000
+2023-04-02T22:11:32Z Bound to 0.0.0.0:19000
+2023-04-02T22:11:32Z 0 block-relay-only anchors will be tried for connections.
+2023-04-02T22:11:32Z init message: Starting network threads…
+2023-04-02T22:11:32Z net thread start
+2023-04-02T22:11:32Z dnsseed thread start
+2023-04-02T22:11:32Z addcon thread start
+2023-04-02T22:11:32Z opencon thread start
+2023-04-02T22:11:32Z msghand thread start
+2023-04-02T22:11:32Z init message: Done loading
+2023-04-02T22:11:32Z Loading addresses from DNS seed dummySeed.invalid.
+2023-04-02T22:11:32Z 0 addresses found from DNS seeds
+2023-04-02T22:11:32Z dnsseed thread exit
+2023-04-02T22:11:45Z tor: Thread interrupt
+2023-04-02T22:11:45Z addcon thread exit
+2023-04-02T22:11:45Z torcontrol thread exit
+2023-04-02T22:11:45Z opencon thread exit
+2023-04-02T22:11:45Z Shutdown: In progress...
+2023-04-02T22:11:45Z net thread exit
+2023-04-02T22:11:45Z msghand thread exit
+2023-04-02T22:11:45Z DumpAnchors: Flush 0 outbound block-relay-only peer addresses to anchors.dat started
+2023-04-02T22:11:45Z DumpAnchors: Flush 0 outbound block-relay-only peer addresses to anchors.dat completed (0.00s)
+2023-04-02T22:11:45Z scheduler thread exit
+2023-04-02T22:11:45Z Writing 0 unbroadcast transactions to disk.
+2023-04-02T22:11:45Z Dumped mempool: 2.917e-06s to copy, 0.00543913s to dump
+2023-04-02T22:11:45Z Shutdown: done
+
+
+
+
+
+2023-04-02T22:17:37Z Bitcoin Core version v24.0.1 (release build)
+2023-04-02T22:17:37Z Using the 'arm_shani(1way,2way)' SHA256 implementation
+2023-04-02T22:17:37Z Default data directory /Users/matthiasdebernardini/Library/Application Support/Bitcoin
+2023-04-02T22:17:37Z Using data directory /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest
+2023-04-02T22:17:37Z Config file: /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/bitcoin.conf
+2023-04-02T22:17:37Z Config file arg: regtest="1"
+2023-04-02T22:17:37Z Config file arg: server="1"
+2023-04-02T22:17:37Z Command-line arg: conf="/Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/bitcoin.conf"
+2023-04-02T22:17:37Z Command-line arg: daemon=""
+2023-04-02T22:17:37Z Command-line arg: datadir="/Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1"
+2023-04-02T22:17:37Z Command-line arg: port="19000"
+2023-04-02T22:17:37Z Command-line arg: regtest=""
+2023-04-02T22:17:37Z Command-line arg: rpcport="19001"
+2023-04-02T22:17:37Z Using at most 125 automatic connections (285 file descriptors available)
+2023-04-02T22:17:37Z Using 16 MiB out of 16 MiB requested for signature cache, able to store 524288 elements
+2023-04-02T22:17:37Z Using 16 MiB out of 16 MiB requested for script execution cache, able to store 524288 elements
+2023-04-02T22:17:37Z Script verification uses 7 additional threads
+2023-04-02T22:17:37Z scheduler thread start
+2023-04-02T22:17:37Z [http] creating work queue of depth 16
+2023-04-02T22:17:37Z Using random cookie authentication.
+2023-04-02T22:17:37Z Generated RPC authentication cookie /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/.cookie
+2023-04-02T22:17:37Z [http] starting 4 worker threads
+2023-04-02T22:17:37Z Using wallet directory /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/wallets
+2023-04-02T22:17:37Z init message: Verifying wallet(s)…
+2023-04-02T22:17:37Z Using /16 prefix for IP bucketing
+2023-04-02T22:17:37Z init message: Loading P2P addresses…
+2023-04-02T22:17:37Z Loaded 0 addresses from peers.dat  0ms
+2023-04-02T22:17:37Z init message: Loading banlist…
+2023-04-02T22:17:37Z SetNetworkActive: true
+2023-04-02T22:17:37Z Cache configuration:
+2023-04-02T22:17:37Z * Using 2.0 MiB for block index database
+2023-04-02T22:17:37Z * Using 8.0 MiB for chain state database
+2023-04-02T22:17:37Z * Using 440.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2023-04-02T22:17:37Z init message: Loading block index…
+2023-04-02T22:17:37Z Validating signatures for all blocks.
+2023-04-02T22:17:37Z Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2023-04-02T22:17:37Z Switching active chainstate to Chainstate [ibd] @ height -1 (null)
+2023-04-02T22:17:37Z Opening LevelDB in /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/blocks/index
+2023-04-02T22:17:37Z Opened LevelDB successfully
+2023-04-02T22:17:37Z Using obfuscation key for /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/blocks/index: 0000000000000000
+2023-04-02T22:17:37Z LoadBlockIndexDB: last block file = 0
+2023-04-02T22:17:37Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=1, size=293, heights=0...0, time=2011-02-02...2011-02-02)
+2023-04-02T22:17:37Z Checking all blk files are present...
+2023-04-02T22:17:37Z Opening LevelDB in /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/chainstate
+2023-04-02T22:17:37Z Opened LevelDB successfully
+2023-04-02T22:17:37Z Using obfuscation key for /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/chainstate: 237d2ae10b9c3d9f
+2023-04-02T22:17:37Z Loaded best chain: hashBestChain=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 date=2011-02-02T23:16:42Z progress=1.000000
+2023-04-02T22:17:37Z init message: Verifying blocks…
+2023-04-02T22:17:37Z  block index              52ms
+2023-04-02T22:17:37Z Setting NODE_NETWORK on non-prune mode
+2023-04-02T22:17:37Z block tree size = 1
+2023-04-02T22:17:37Z nBestHeight = 0
+2023-04-02T22:17:37Z loadblk thread start
+2023-04-02T22:17:37Z torcontrol thread start
+2023-04-02T22:17:37Z Bound to 127.0.0.1:18445
+2023-04-02T22:17:37Z Bound to [::]:19000
+2023-04-02T22:17:37Z Imported mempool transactions from disk: 0 succeeded, 0 failed, 0 expired, 0 already there, 0 waiting for initial broadcast
+2023-04-02T22:17:37Z loadblk thread exit
+2023-04-02T22:17:37Z Bound to 0.0.0.0:19000
+2023-04-02T22:17:37Z Loaded 0 addresses from "anchors.dat"
+2023-04-02T22:17:37Z 0 block-relay-only anchors will be tried for connections.
+2023-04-02T22:17:37Z init message: Starting network threads…
+2023-04-02T22:17:37Z net thread start
+2023-04-02T22:17:37Z dnsseed thread start
+2023-04-02T22:17:37Z Loading addresses from DNS seed dummySeed.invalid.
+2023-04-02T22:17:37Z addcon thread start
+2023-04-02T22:17:37Z msghand thread start
+2023-04-02T22:17:37Z opencon thread start
+2023-04-02T22:17:37Z init message: Done loading
+2023-04-02T22:17:37Z 0 addresses found from DNS seeds
+2023-04-02T22:17:37Z dnsseed thread exit
+2023-04-02T22:18:38Z Adding fixed seeds as 60 seconds have passed and addrman is empty
+2023-04-02T22:18:38Z Added 0 fixed seeds from reachable networks.
+2023-04-02T22:49:52Z Potential stale tip detected, will try using extra outbound peer (last tip update: 1890 seconds ago)
+2023-04-02T22:51:59Z ThreadRPCServer incorrect password attempt from 127.0.0.1:49606
+2023-04-02T22:53:53Z ThreadRPCServer incorrect password attempt from 127.0.0.1:49608
+2023-04-02T22:54:32Z ThreadRPCServer incorrect password attempt from 127.0.0.1:49613
+2023-04-02T23:00:22Z Potential stale tip detected, will try using extra outbound peer (last tip update: 2520 seconds ago)
+
+
+
+
+
+2023-04-02T23:01:31Z Bitcoin Core version v24.0.1 (release build)
+2023-04-02T23:01:31Z Using the 'arm_shani(1way,2way)' SHA256 implementation
+2023-04-02T23:01:31Z Default data directory /Users/matthiasdebernardini/Library/Application Support/Bitcoin
+2023-04-02T23:01:31Z Using data directory /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest
+2023-04-02T23:01:31Z Config file: /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/bitcoin.conf
+2023-04-02T23:01:31Z Config file arg: rpcpassword=****
+2023-04-02T23:01:31Z Config file arg: rpcuser=****
+2023-04-02T23:01:31Z Config file arg: server="1"
+2023-04-02T23:01:31Z Command-line arg: conf="/Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/bitcoin.conf"
+2023-04-02T23:01:31Z Command-line arg: daemon=""
+2023-04-02T23:01:31Z Command-line arg: datadir="/Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1"
+2023-04-02T23:01:31Z Command-line arg: port="19000"
+2023-04-02T23:01:31Z Command-line arg: regtest=""
+2023-04-02T23:01:31Z Command-line arg: rpcport="19001"
+2023-04-02T23:01:31Z Using at most 125 automatic connections (285 file descriptors available)
+2023-04-02T23:01:31Z Using 16 MiB out of 16 MiB requested for signature cache, able to store 524288 elements
+2023-04-02T23:01:31Z Using 16 MiB out of 16 MiB requested for script execution cache, able to store 524288 elements
+2023-04-02T23:01:31Z Script verification uses 7 additional threads
+2023-04-02T23:01:31Z scheduler thread start
+2023-04-02T23:01:31Z [http] creating work queue of depth 16
+2023-04-02T23:01:31Z Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcauth for rpcauth auth generation.
+2023-04-02T23:01:31Z [http] starting 4 worker threads
+2023-04-02T23:01:31Z Using wallet directory /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/wallets
+2023-04-02T23:01:31Z init message: Verifying wallet(s)…
+2023-04-02T23:01:31Z Using /16 prefix for IP bucketing
+2023-04-02T23:01:31Z init message: Loading P2P addresses…
+2023-04-02T23:01:31Z Loaded 0 addresses from peers.dat  0ms
+2023-04-02T23:01:31Z init message: Loading banlist…
+2023-04-02T23:01:31Z SetNetworkActive: true
+2023-04-02T23:01:31Z Cache configuration:
+2023-04-02T23:01:31Z * Using 2.0 MiB for block index database
+2023-04-02T23:01:31Z * Using 8.0 MiB for chain state database
+2023-04-02T23:01:31Z * Using 440.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2023-04-02T23:01:31Z init message: Loading block index…
+2023-04-02T23:01:31Z Validating signatures for all blocks.
+2023-04-02T23:01:31Z Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2023-04-02T23:01:31Z Switching active chainstate to Chainstate [ibd] @ height -1 (null)
+2023-04-02T23:01:31Z Opening LevelDB in /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/blocks/index
+2023-04-02T23:01:31Z Opened LevelDB successfully
+2023-04-02T23:01:31Z Using obfuscation key for /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/blocks/index: 0000000000000000
+2023-04-02T23:01:31Z LoadBlockIndexDB: last block file = 0
+2023-04-02T23:01:31Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=1, size=293, heights=0...0, time=2011-02-02...2011-02-02)
+2023-04-02T23:01:31Z Checking all blk files are present...
+2023-04-02T23:01:31Z Opening LevelDB in /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/chainstate
+2023-04-02T23:01:31Z Opened LevelDB successfully
+2023-04-02T23:01:31Z Using obfuscation key for /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/chainstate: 237d2ae10b9c3d9f
+2023-04-02T23:01:31Z Loaded best chain: hashBestChain=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 date=2011-02-02T23:16:42Z progress=1.000000
+2023-04-02T23:01:31Z init message: Verifying blocks…
+2023-04-02T23:01:31Z  block index              42ms
+2023-04-02T23:01:31Z Setting NODE_NETWORK on non-prune mode
+2023-04-02T23:01:31Z block tree size = 1
+2023-04-02T23:01:31Z nBestHeight = 0
+2023-04-02T23:01:31Z loadblk thread start
+2023-04-02T23:01:31Z torcontrol thread start
+2023-04-02T23:01:31Z Bound to 127.0.0.1:18445
+2023-04-02T23:01:31Z Bound to [::]:19000
+2023-04-02T23:01:31Z Imported mempool transactions from disk: 0 succeeded, 0 failed, 0 expired, 0 already there, 0 waiting for initial broadcast
+2023-04-02T23:01:31Z Bound to 0.0.0.0:19000
+2023-04-02T23:01:31Z loadblk thread exit
+2023-04-02T23:01:31Z 0 block-relay-only anchors will be tried for connections.
+2023-04-02T23:01:31Z init message: Starting network threads…
+2023-04-02T23:01:31Z net thread start
+2023-04-02T23:01:31Z dnsseed thread start
+2023-04-02T23:01:31Z Loading addresses from DNS seed dummySeed.invalid.
+2023-04-02T23:01:31Z msghand thread start
+2023-04-02T23:01:31Z addcon thread start
+2023-04-02T23:01:31Z opencon thread start
+2023-04-02T23:01:31Z init message: Done loading
+2023-04-02T23:01:31Z 0 addresses found from DNS seeds
+2023-04-02T23:01:31Z dnsseed thread exit
+2023-04-02T23:01:43Z ThreadRPCServer incorrect password attempt from 127.0.0.1:49641
+2023-04-02T23:02:32Z Adding fixed seeds as 60 seconds have passed and addrman is empty
+2023-04-02T23:02:32Z Added 0 fixed seeds from reachable networks.
+
+
+
+
+
+2023-04-02T23:04:25Z Bitcoin Core version v24.0.1 (release build)
+2023-04-02T23:04:25Z Using the 'arm_shani(1way,2way)' SHA256 implementation
+2023-04-02T23:04:25Z Default data directory /Users/matthiasdebernardini/Library/Application Support/Bitcoin
+2023-04-02T23:04:25Z Using data directory /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest
+2023-04-02T23:04:25Z Config file: /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/bitcoin.conf
+2023-04-02T23:04:25Z Config file arg: rpcpassword=****
+2023-04-02T23:04:25Z Config file arg: rpcuser=****
+2023-04-02T23:04:25Z Config file arg: server="1"
+2023-04-02T23:04:25Z Command-line arg: conf="/Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/bitcoin.conf"
+2023-04-02T23:04:25Z Command-line arg: datadir="/Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1"
+2023-04-02T23:04:25Z Command-line arg: port="19000"
+2023-04-02T23:04:25Z Command-line arg: regtest=""
+2023-04-02T23:04:25Z Command-line arg: rpcport="19001"
+2023-04-02T23:04:25Z Using at most 125 automatic connections (285 file descriptors available)
+2023-04-02T23:04:25Z Using 16 MiB out of 16 MiB requested for signature cache, able to store 524288 elements
+2023-04-02T23:04:25Z Using 16 MiB out of 16 MiB requested for script execution cache, able to store 524288 elements
+2023-04-02T23:04:25Z Script verification uses 7 additional threads
+2023-04-02T23:04:25Z scheduler thread start
+2023-04-02T23:04:25Z [http] creating work queue of depth 16
+2023-04-02T23:04:25Z Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcauth for rpcauth auth generation.
+2023-04-02T23:04:25Z [http] starting 4 worker threads
+2023-04-02T23:04:25Z Using wallet directory /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/wallets
+2023-04-02T23:04:25Z init message: Verifying wallet(s)…
+2023-04-02T23:04:25Z Using /16 prefix for IP bucketing
+2023-04-02T23:04:25Z init message: Loading P2P addresses…
+2023-04-02T23:04:25Z Loaded 0 addresses from peers.dat  0ms
+2023-04-02T23:04:25Z init message: Loading banlist…
+2023-04-02T23:04:25Z SetNetworkActive: true
+2023-04-02T23:04:25Z Cache configuration:
+2023-04-02T23:04:25Z * Using 2.0 MiB for block index database
+2023-04-02T23:04:25Z * Using 8.0 MiB for chain state database
+2023-04-02T23:04:25Z * Using 440.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2023-04-02T23:04:25Z init message: Loading block index…
+2023-04-02T23:04:25Z Validating signatures for all blocks.
+2023-04-02T23:04:25Z Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2023-04-02T23:04:25Z Switching active chainstate to Chainstate [ibd] @ height -1 (null)
+2023-04-02T23:04:25Z Opening LevelDB in /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/blocks/index
+2023-04-02T23:04:25Z Opened LevelDB successfully
+2023-04-02T23:04:25Z Using obfuscation key for /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/blocks/index: 0000000000000000
+2023-04-02T23:04:25Z LoadBlockIndexDB: last block file = 0
+2023-04-02T23:04:25Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=1, size=293, heights=0...0, time=2011-02-02...2011-02-02)
+2023-04-02T23:04:25Z Checking all blk files are present...
+2023-04-02T23:04:25Z Opening LevelDB in /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/chainstate
+2023-04-02T23:04:25Z Opened LevelDB successfully
+2023-04-02T23:04:25Z Using obfuscation key for /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/chainstate: 237d2ae10b9c3d9f
+2023-04-02T23:04:25Z Loaded best chain: hashBestChain=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 date=2011-02-02T23:16:42Z progress=1.000000
+2023-04-02T23:04:25Z init message: Verifying blocks…
+2023-04-02T23:04:25Z  block index              46ms
+2023-04-02T23:04:25Z Setting NODE_NETWORK on non-prune mode
+2023-04-02T23:04:25Z block tree size = 1
+2023-04-02T23:04:25Z nBestHeight = 0
+2023-04-02T23:04:25Z loadblk thread start
+2023-04-02T23:04:25Z torcontrol thread start
+2023-04-02T23:04:25Z Bound to 127.0.0.1:18445
+2023-04-02T23:04:25Z Bound to [::]:19000
+2023-04-02T23:04:25Z Bound to 0.0.0.0:19000
+2023-04-02T23:04:25Z Imported mempool transactions from disk: 0 succeeded, 0 failed, 0 expired, 0 already there, 0 waiting for initial broadcast
+2023-04-02T23:04:25Z loadblk thread exit
+2023-04-02T23:04:25Z 0 block-relay-only anchors will be tried for connections.
+2023-04-02T23:04:25Z init message: Starting network threads…
+2023-04-02T23:04:25Z net thread start
+2023-04-02T23:04:25Z opencon thread start
+2023-04-02T23:04:25Z addcon thread start
+2023-04-02T23:04:25Z msghand thread start
+2023-04-02T23:04:25Z init message: Done loading
+2023-04-02T23:04:25Z dnsseed thread start
+2023-04-02T23:04:25Z Loading addresses from DNS seed dummySeed.invalid.
+2023-04-02T23:04:25Z 0 addresses found from DNS seeds
+2023-04-02T23:04:25Z dnsseed thread exit
+2023-04-02T23:05:17Z ThreadRPCServer incorrect password attempt from 127.0.0.1:49684
+2023-04-02T23:05:26Z Adding fixed seeds as 60 seconds have passed and addrman is empty
+2023-04-02T23:05:26Z Added 0 fixed seeds from reachable networks.
+2023-04-02T23:06:39Z ThreadRPCServer incorrect password attempt from 127.0.0.1:49690
+2023-04-02T23:07:45Z tor: Thread interrupt
+2023-04-02T23:07:45Z torcontrol thread exit
+2023-04-02T23:07:45Z addcon thread exit
+2023-04-02T23:07:45Z opencon thread exit
+2023-04-02T23:07:45Z Shutdown: In progress...
+2023-04-02T23:07:45Z net thread exit
+2023-04-02T23:07:45Z msghand thread exit
+2023-04-02T23:07:45Z DumpAnchors: Flush 0 outbound block-relay-only peer addresses to anchors.dat started
+2023-04-02T23:07:45Z DumpAnchors: Flush 0 outbound block-relay-only peer addresses to anchors.dat completed (0.01s)
+2023-04-02T23:07:45Z scheduler thread exit
+2023-04-02T23:07:45Z Writing 0 unbroadcast transactions to disk.
+2023-04-02T23:07:45Z Dumped mempool: 1.425e-05s to copy, 0.00999046s to dump
+2023-04-02T23:07:45Z Shutdown: done
+
+
+
+
+
+2023-04-02T23:09:58Z Bitcoin Core version v24.0.1 (release build)
+2023-04-02T23:09:58Z Using the 'arm_shani(1way,2way)' SHA256 implementation
+2023-04-02T23:09:58Z Default data directory /Users/matthiasdebernardini/Library/Application Support/Bitcoin
+2023-04-02T23:09:58Z Using data directory /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest
+2023-04-02T23:09:58Z Config file: /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/bitcoin.conf
+2023-04-02T23:09:58Z Config file arg: rpcpassword=****
+2023-04-02T23:09:58Z Config file arg: rpcuser=****
+2023-04-02T23:09:58Z Config file arg: server="1"
+2023-04-02T23:09:58Z Command-line arg: conf="/Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/bitcoin.conf"
+2023-04-02T23:09:58Z Command-line arg: daemon=""
+2023-04-02T23:09:58Z Command-line arg: datadir="/Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1"
+2023-04-02T23:09:58Z Command-line arg: port="19000"
+2023-04-02T23:09:58Z Command-line arg: regtest=""
+2023-04-02T23:09:58Z Command-line arg: rpcport="19001"
+2023-04-02T23:09:58Z Using at most 125 automatic connections (285 file descriptors available)
+2023-04-02T23:09:58Z Using 16 MiB out of 16 MiB requested for signature cache, able to store 524288 elements
+2023-04-02T23:09:58Z Using 16 MiB out of 16 MiB requested for script execution cache, able to store 524288 elements
+2023-04-02T23:09:58Z Script verification uses 7 additional threads
+2023-04-02T23:09:58Z scheduler thread start
+2023-04-02T23:09:58Z [http] creating work queue of depth 16
+2023-04-02T23:09:58Z Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcauth for rpcauth auth generation.
+2023-04-02T23:09:58Z [http] starting 4 worker threads
+2023-04-02T23:09:58Z Using wallet directory /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/wallets
+2023-04-02T23:09:58Z init message: Verifying wallet(s)…
+2023-04-02T23:09:58Z Using /16 prefix for IP bucketing
+2023-04-02T23:09:58Z init message: Loading P2P addresses…
+2023-04-02T23:09:58Z Loaded 0 addresses from peers.dat  0ms
+2023-04-02T23:09:58Z init message: Loading banlist…
+2023-04-02T23:09:58Z SetNetworkActive: true
+2023-04-02T23:09:58Z Cache configuration:
+2023-04-02T23:09:58Z * Using 2.0 MiB for block index database
+2023-04-02T23:09:58Z * Using 8.0 MiB for chain state database
+2023-04-02T23:09:58Z * Using 440.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2023-04-02T23:09:58Z init message: Loading block index…
+2023-04-02T23:09:58Z Validating signatures for all blocks.
+2023-04-02T23:09:58Z Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2023-04-02T23:09:58Z Switching active chainstate to Chainstate [ibd] @ height -1 (null)
+2023-04-02T23:09:58Z Opening LevelDB in /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/blocks/index
+2023-04-02T23:09:58Z Opened LevelDB successfully
+2023-04-02T23:09:58Z Using obfuscation key for /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/blocks/index: 0000000000000000
+2023-04-02T23:09:58Z LoadBlockIndexDB: last block file = 0
+2023-04-02T23:09:58Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=1, size=293, heights=0...0, time=2011-02-02...2011-02-02)
+2023-04-02T23:09:58Z Checking all blk files are present...
+2023-04-02T23:09:58Z Opening LevelDB in /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/chainstate
+2023-04-02T23:09:58Z Opened LevelDB successfully
+2023-04-02T23:09:58Z Using obfuscation key for /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/chainstate: 237d2ae10b9c3d9f
+2023-04-02T23:09:58Z Loaded best chain: hashBestChain=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 date=2011-02-02T23:16:42Z progress=1.000000
+2023-04-02T23:09:58Z init message: Verifying blocks…
+2023-04-02T23:09:58Z  block index              58ms
+2023-04-02T23:09:58Z Setting NODE_NETWORK on non-prune mode
+2023-04-02T23:09:58Z block tree size = 1
+2023-04-02T23:09:58Z nBestHeight = 0
+2023-04-02T23:09:58Z loadblk thread start
+2023-04-02T23:09:58Z torcontrol thread start
+2023-04-02T23:09:58Z Imported mempool transactions from disk: 0 succeeded, 0 failed, 0 expired, 0 already there, 0 waiting for initial broadcast
+2023-04-02T23:09:58Z loadblk thread exit
+2023-04-02T23:09:58Z Bound to 127.0.0.1:18445
+2023-04-02T23:09:58Z Bound to [::]:19000
+2023-04-02T23:09:58Z Bound to 0.0.0.0:19000
+2023-04-02T23:09:58Z Loaded 0 addresses from "anchors.dat"
+2023-04-02T23:09:58Z 0 block-relay-only anchors will be tried for connections.
+2023-04-02T23:09:58Z init message: Starting network threads…
+2023-04-02T23:09:58Z net thread start
+2023-04-02T23:09:58Z dnsseed thread start
+2023-04-02T23:09:58Z Loading addresses from DNS seed dummySeed.invalid.
+2023-04-02T23:09:58Z opencon thread start
+2023-04-02T23:09:58Z init message: Done loading
+2023-04-02T23:09:58Z msghand thread start
+2023-04-02T23:09:58Z addcon thread start
+2023-04-02T23:09:58Z 0 addresses found from DNS seeds
+2023-04-02T23:09:58Z dnsseed thread exit
+2023-04-02T23:10:59Z Adding fixed seeds as 60 seconds have passed and addrman is empty
+2023-04-02T23:10:59Z Added 0 fixed seeds from reachable networks.
