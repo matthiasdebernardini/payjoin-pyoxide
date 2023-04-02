@@ -6,8 +6,10 @@
 # https://devenv.sh/packages/
 	packages = [ pkgs.git
 		pkgs.jq
+		pkgs.rust-petname
                 pkgs.helix
 		pkgs.httpie
+		pkgs.bitcoind
 		pkgs.yarn
 		pkgs.curl
 		pkgs.fzf
