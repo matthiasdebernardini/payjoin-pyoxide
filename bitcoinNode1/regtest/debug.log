@@ -419,3 +419,425 @@
 2023-04-02T23:09:58Z dnsseed thread exit
 2023-04-02T23:10:59Z Adding fixed seeds as 60 seconds have passed and addrman is empty
 2023-04-02T23:10:59Z Added 0 fixed seeds from reachable networks.
+2023-04-02T23:14:34Z Using SQLite Version 3.41.1
+2023-04-02T23:14:34Z Using wallet /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/wallets/wealthy-baboon
+2023-04-02T23:14:34Z init message: Loading wallet…
+2023-04-02T23:14:34Z [wealthy-baboon] Wallet file version = 10500, last client version = 240001
+2023-04-02T23:14:34Z [wealthy-baboon] Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total. Unknown wallet records: 0
+2023-04-02T23:14:34Z [wealthy-baboon] Setting minversion to 169900
+2023-04-02T23:14:34Z [wealthy-baboon] Setting spkMan to active: id = ce6f6d1c28b51c3cfc0d6d097841878f97c15715619ba9748be853a0c925b3c4, type = legacy, internal = false
+2023-04-02T23:14:34Z [wealthy-baboon] Setting spkMan to active: id = 7ae8de88248ce3465726a16f24cc92c9d176499787a5a6bce0753e3bc643c476, type = p2sh-segwit, internal = false
+2023-04-02T23:14:35Z [wealthy-baboon] Setting spkMan to active: id = b156e53be05fa2d49675b6f85c98d9d22bfce4102081af17a1d790551f1b4cd4, type = bech32, internal = false
+2023-04-02T23:14:35Z [wealthy-baboon] Setting spkMan to active: id = 663afe476a06239188d986414cdfa4723954cbf9fc679574225b528418e3a5a4, type = bech32m, internal = false
+2023-04-02T23:14:35Z [wealthy-baboon] Setting spkMan to active: id = 515ce3625ca5b84e2e4c4b65dfcd2093443aed03f1a03e2e53bbe9a5cb8c0a08, type = legacy, internal = true
+2023-04-02T23:14:35Z [wealthy-baboon] Setting spkMan to active: id = c4f96626ded74f3f9220e93eafcefd219f01a81eee90f7563fd859022db869ae, type = p2sh-segwit, internal = true
+2023-04-02T23:14:35Z [wealthy-baboon] Setting spkMan to active: id = dd6d26081c506a252ae28d73652d332e2d8efd2d9921b9560074609775588f19, type = bech32, internal = true
+2023-04-02T23:14:36Z [wealthy-baboon] Setting spkMan to active: id = b1e2a627d5b46d85c20f0379a5649380a2673fc3d0d9c19580b574e43db5074d, type = bech32m, internal = true
+2023-04-02T23:14:36Z [wealthy-baboon] Wallet completed loading in            1643ms
+2023-04-02T23:14:36Z [wealthy-baboon] setKeyPool.size() = 8000
+2023-04-02T23:14:36Z [wealthy-baboon] mapWallet.size() = 0
+2023-04-02T23:14:36Z [wealthy-baboon] m_address_book.size() = 0
+2023-04-02T23:21:53Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:53Z Leaving InitialBlockDownload (latching to false)
+2023-04-02T23:21:53Z UpdateTip: new best=1fdc591eb00c646441aead7ed05227463b78f2706bd36cf27e5935556bf17898 height=1 version=0x20000000 log2_work=2.000000 tx=2 date='2023-04-02T23:21:53Z' progress=1.000000 cache=0.0MiB(1txo)
+2023-04-02T23:21:53Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:53Z UpdateTip: new best=500860a49785279fc553660579cffed3160fb367e443b00596224675b349a513 height=2 version=0x20000000 log2_work=2.584963 tx=3 date='2023-04-02T23:21:54Z' progress=1.000000 cache=0.0MiB(2txo)
+2023-04-02T23:21:53Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:53Z UpdateTip: new best=5e4254c1ae349b59bc341f7c5b8cec98be2a2458f30c08b6e86611af405b5ed9 height=3 version=0x20000000 log2_work=3.000000 tx=4 date='2023-04-02T23:21:54Z' progress=1.000000 cache=0.0MiB(3txo)
+2023-04-02T23:21:53Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:53Z UpdateTip: new best=2cd37e6f0eef8b7f281c1e06850a40b384c96d8fc9b210097997377c8136ee4e height=4 version=0x20000000 log2_work=3.321928 tx=5 date='2023-04-02T23:21:55Z' progress=1.000000 cache=0.0MiB(4txo)
+2023-04-02T23:21:53Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:53Z UpdateTip: new best=6fbb7997285fb2cd3505703a9d8ff1c327d2b5473d4245a2aa17bc0309299f21 height=5 version=0x20000000 log2_work=3.584963 tx=6 date='2023-04-02T23:21:55Z' progress=1.000000 cache=0.0MiB(5txo)
+2023-04-02T23:21:53Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:53Z UpdateTip: new best=750772a281ec490a17283ad85af94d2efd4b94ee03a3088de0d6383945ea64f3 height=6 version=0x20000000 log2_work=3.807355 tx=7 date='2023-04-02T23:21:55Z' progress=1.000000 cache=0.0MiB(6txo)
+2023-04-02T23:21:53Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:53Z [wealthy-baboon] AddToWallet f443d6d025cc2c49bd5cffe8cdf5e86e268068cece52b233ebf115b724b5fc4a  new
+2023-04-02T23:21:53Z [wealthy-baboon] AddToWallet 6b143641d7c3bbe850a2f198adc7667ed5be4f2c33c739e2cb06e0354b6b3ac4  new
+2023-04-02T23:21:53Z [wealthy-baboon] AddToWallet b0b29ee449f0cae3f34457728d0aa32a8c2c37cb967d6e5d3ab5a002f027d9a6  new
+2023-04-02T23:21:53Z [wealthy-baboon] AddToWallet 06e4703ea90a5bca24b0fcf34940e8d4983ef9993ce5f3c03d9bc80bb3cc32d5  new
+2023-04-02T23:21:53Z [wealthy-baboon] AddToWallet eaa2e9c3e12a38959a920be89bb0141e1c33fb043acf63c3ad1a4ee197144ede  new
+2023-04-02T23:21:53Z [wealthy-baboon] AddToWallet ae176f15b11c2a385b5e73cbefb70fe4187891127f47d3c4b62a900352056158  new
+2023-04-02T23:21:53Z UpdateTip: new best=54a7fc33d5b6b0b680a9502d5854e067132d92f1561c0e6f9ee526763cbd7fee height=7 version=0x20000000 log2_work=4.000000 tx=8 date='2023-04-02T23:21:55Z' progress=1.000000 cache=0.0MiB(7txo)
+2023-04-02T23:21:53Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:53Z UpdateTip: new best=10da070e50c49538f062f8817d90d242022f1d90c50773d1d96834523e67fde9 height=8 version=0x20000000 log2_work=4.169925 tx=9 date='2023-04-02T23:21:56Z' progress=1.000000 cache=0.0MiB(8txo)
+2023-04-02T23:21:53Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:53Z UpdateTip: new best=6126c5aabd534260f95b66352c33f6227485c2438419b0b52cf4f817974920d7 height=9 version=0x20000000 log2_work=4.321928 tx=10 date='2023-04-02T23:21:56Z' progress=1.000000 cache=0.0MiB(9txo)
+2023-04-02T23:21:53Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:53Z UpdateTip: new best=638c121057fd71506da364401a43c1401c85590c55d86da6ec51df90487445b0 height=10 version=0x20000000 log2_work=4.459432 tx=11 date='2023-04-02T23:21:56Z' progress=1.000000 cache=0.0MiB(10txo)
+2023-04-02T23:21:53Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:53Z UpdateTip: new best=17ee12184475f6a48620bf13b43f5434f1293ff70ff43c4d521f9d8f88097220 height=11 version=0x20000000 log2_work=4.584963 tx=12 date='2023-04-02T23:21:56Z' progress=1.000000 cache=0.0MiB(11txo)
+2023-04-02T23:21:53Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:53Z UpdateTip: new best=12b7aea19fecd2f32cd33c8000535ebff02e356538c703f4b35f6d83bb497f16 height=12 version=0x20000000 log2_work=4.700440 tx=13 date='2023-04-02T23:21:56Z' progress=1.000000 cache=0.0MiB(12txo)
+2023-04-02T23:21:53Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:53Z [wealthy-baboon] AddToWallet a3ab548094df016f553ad3968d34d2dfcba36b40f1a73674d7e7cab193c6e6df  new
+2023-04-02T23:21:53Z [wealthy-baboon] AddToWallet ad779b9c613ebd08e76e813f646f30f3b45463a5c23318eabd8a77d7aa6560aa  new
+2023-04-02T23:21:53Z [wealthy-baboon] AddToWallet b769c3f0c1e5707c5bcdf1c9a11141921b29e97f06c43f785df4a582aa2e763b  new
+2023-04-02T23:21:53Z [wealthy-baboon] AddToWallet ef4a14751f48917624dba8ed20654645345acf42c7c2493eb28b34f7f573d7ad  new
+2023-04-02T23:21:53Z [wealthy-baboon] AddToWallet 491bf7c08e3340414d0409c8408f434af1249094a09f498720446f816b5b5de3  new
+2023-04-02T23:21:53Z [wealthy-baboon] AddToWallet c7a551144d3713fde0f93cbe5857cb0e1f12505e9f1d4af207877cc2a16fb1e8  new
+2023-04-02T23:21:53Z UpdateTip: new best=018698cbb0df27942b90e8d564764218fac1fd8abcd3d4a69c9b7ef94c8cdcf2 height=13 version=0x20000000 log2_work=4.807355 tx=14 date='2023-04-02T23:21:56Z' progress=1.000000 cache=0.0MiB(13txo)
+2023-04-02T23:21:53Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:53Z UpdateTip: new best=1f970360292aaa9359ac03e3a9f53fe4f1ae9cba88d1eea289cd53775f2b1e57 height=14 version=0x20000000 log2_work=4.906891 tx=15 date='2023-04-02T23:21:57Z' progress=1.000000 cache=0.0MiB(14txo)
+2023-04-02T23:21:53Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:53Z UpdateTip: new best=2b289c55e0a1a7bf48b80977ce6820a5638876095ab6c91f24f034df10e5757c height=15 version=0x20000000 log2_work=5.000000 tx=16 date='2023-04-02T23:21:57Z' progress=1.000000 cache=0.0MiB(15txo)
+2023-04-02T23:21:53Z CreateNewBlock(): block weight: 884 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:53Z UpdateTip: new best=4a75ecf3aef4bf1d15592858be65c9773f15c6611d344dfe1a5684a51aa7b614 height=16 version=0x20000000 log2_work=5.087463 tx=17 date='2023-04-02T23:21:57Z' progress=1.000000 cache=0.0MiB(16txo)
+2023-04-02T23:21:53Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:53Z UpdateTip: new best=5b6f0eb16356fbafcc0bfe18cb2172b413c9ce887bfcf33cda8f8326f536e687 height=17 version=0x20000000 log2_work=5.169925 tx=18 date='2023-04-02T23:21:57Z' progress=1.000000 cache=0.0MiB(17txo)
+2023-04-02T23:21:53Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:53Z UpdateTip: new best=5c2af27874a0db9ec2664e05c2f37c286932f7046d9ccc2c4337b9692c108534 height=18 version=0x20000000 log2_work=5.247928 tx=19 date='2023-04-02T23:21:57Z' progress=1.000000 cache=0.0MiB(18txo)
+2023-04-02T23:21:53Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:53Z [wealthy-baboon] AddToWallet fab48c5dcfd41aae34164ebeb3ab369389dac6e5baee329fc5470037ceeeac1f  new
+2023-04-02T23:21:53Z [wealthy-baboon] AddToWallet 882fcd7892c32785fa56450131a11f11dd3daeaeb225f9a6959df987579a671a  new
+2023-04-02T23:21:53Z [wealthy-baboon] AddToWallet 0a303137ffa02c614f5e1fd9ad7ead3b47791b209b480bf0a9ebe600d228ba4f  new
+2023-04-02T23:21:53Z [wealthy-baboon] AddToWallet 6ea90f329dcae18fbaa5df324c52f7164c8d9ffe2debffefc2a5467e56558a4b  new
+2023-04-02T23:21:53Z [wealthy-baboon] AddToWallet 2a6872ea75c1a6efdddacb990e1751e64c14109c9ca3173205ab3a3413e0f379  new
+2023-04-02T23:21:54Z [wealthy-baboon] AddToWallet 36f61c5091dcf63300ac1c6480b0f79b46ccda9712745419f8429bad64c760ab  new
+2023-04-02T23:21:54Z UpdateTip: new best=23666ab456f290237f7e767aca44bc358979dfc17152cfe2d10eace6ec390f1b height=19 version=0x20000000 log2_work=5.321928 tx=20 date='2023-04-02T23:21:57Z' progress=1.000000 cache=0.0MiB(19txo)
+2023-04-02T23:21:54Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:54Z UpdateTip: new best=75a410c28dd1498a41454aee9d279ff7d35be48b54ae08f5503fbf78e348c77c height=20 version=0x20000000 log2_work=5.392317 tx=21 date='2023-04-02T23:21:58Z' progress=1.000000 cache=0.0MiB(20txo)
+2023-04-02T23:21:54Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:54Z UpdateTip: new best=7f93af1de167dee8d7a508cb2c38c603c25708dfde72abec84646a45020b16c5 height=21 version=0x20000000 log2_work=5.459432 tx=22 date='2023-04-02T23:21:58Z' progress=1.000000 cache=0.0MiB(21txo)
+2023-04-02T23:21:54Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:54Z UpdateTip: new best=56c881bc8e33afbeb5588156591b25edd69f04d963ef8a31b7cf25521185c6f2 height=22 version=0x20000000 log2_work=5.523562 tx=23 date='2023-04-02T23:21:58Z' progress=1.000000 cache=0.0MiB(22txo)
+2023-04-02T23:21:54Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:54Z UpdateTip: new best=54c4a159350bff597ee2c57df2d325d5d03377b473d2067e638b54ff1897ab66 height=23 version=0x20000000 log2_work=5.584963 tx=24 date='2023-04-02T23:21:58Z' progress=1.000000 cache=0.0MiB(23txo)
+2023-04-02T23:21:54Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:54Z UpdateTip: new best=00c3b5c5c34a06831d6172cf01ab3aebd27d0aa3973614de43f5fbc3af70036e height=24 version=0x20000000 log2_work=5.643856 tx=25 date='2023-04-02T23:21:58Z' progress=1.000000 cache=0.0MiB(24txo)
+2023-04-02T23:21:54Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:54Z [wealthy-baboon] AddToWallet f1ce71b9263db195082c265c0d905859263a9377362b588eb3bbd2df12b64540  new
+2023-04-02T23:21:54Z [wealthy-baboon] AddToWallet 880f2afdc15cd338be0699b2eb2a681e5af7a8824a2720f716ef6663b437a779  new
+2023-04-02T23:21:54Z [wealthy-baboon] AddToWallet 67ff057ea319a4082be8f364d1946574b4cd0236a897f930deeacf1f421034e8  new
+2023-04-02T23:21:54Z [wealthy-baboon] AddToWallet 056e85d45cd02591c192bae8f0a01f0dfcdc28a5216183d72a75cd3254da6d00  new
+2023-04-02T23:21:54Z [wealthy-baboon] AddToWallet 8e2d8cef2fe9a9b786b40c7f8c70a26503d33498e956cf5e342496d9ebca0f01  new
+2023-04-02T23:21:54Z [wealthy-baboon] AddToWallet 5d819f9ca9885d5b3480e4cdf6276b422aa2755da5dc3901383e9aa82b665af6  new
+2023-04-02T23:21:54Z UpdateTip: new best=16d1a0da88b72ceeef7f746781c251e85f46e65558a035031ea49f4c72685e53 height=25 version=0x20000000 log2_work=5.700440 tx=26 date='2023-04-02T23:21:58Z' progress=1.000000 cache=0.0MiB(25txo)
+2023-04-02T23:21:54Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:54Z UpdateTip: new best=1d43a248fc83b2b70667f3e708e5b67e2eac2c7c47f17bc96aa67683630b5833 height=26 version=0x20000000 log2_work=5.754888 tx=27 date='2023-04-02T23:21:59Z' progress=1.000000 cache=0.0MiB(26txo)
+2023-04-02T23:21:54Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:54Z UpdateTip: new best=0e0d53b2ab7e94cdfdaf447f224c9a609f68ac1a1235ccd2a56397361e5ea5d9 height=27 version=0x20000000 log2_work=5.807355 tx=28 date='2023-04-02T23:21:59Z' progress=1.000000 cache=0.0MiB(27txo)
+2023-04-02T23:21:54Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:54Z UpdateTip: new best=08cb4972d210f768e3b5eb115cf94655eade197d7f1a3f4c0ae73ff993aae9fa height=28 version=0x20000000 log2_work=5.857981 tx=29 date='2023-04-02T23:21:59Z' progress=1.000000 cache=0.0MiB(28txo)
+2023-04-02T23:21:54Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:54Z UpdateTip: new best=1401d7576867f2721bb863dd379773c51e1ef472dd01edad583ed0d1c54738cb height=29 version=0x20000000 log2_work=5.906891 tx=30 date='2023-04-02T23:21:59Z' progress=1.000000 cache=0.0MiB(29txo)
+2023-04-02T23:21:54Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:54Z UpdateTip: new best=4d36ecf09621b0014aec47d6eac380da218093db77013ffb2b9e2131c8a9010e height=30 version=0x20000000 log2_work=5.954196 tx=31 date='2023-04-02T23:21:59Z' progress=1.000000 cache=0.0MiB(30txo)
+2023-04-02T23:21:54Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:54Z [wealthy-baboon] AddToWallet aef6662b628900ab600c52ebefb03d4c7e90301e1f0b131294f2a1d0692bae94  new
+2023-04-02T23:21:54Z [wealthy-baboon] AddToWallet a38abaffb8d75859aaa41f5b8b6ec9cfe841dddca4a238c7540849197210a71f  new
+2023-04-02T23:21:54Z [wealthy-baboon] AddToWallet 767a258e6d34180306d83c4ba5a18ab56b8f1bf2355cb6858b3847ec20cf51e5  new
+2023-04-02T23:21:54Z [wealthy-baboon] AddToWallet 4372a19ddbf05c890eb583f377ef50d8188518ee60d8a561c78743d6acb331bc  new
+2023-04-02T23:21:54Z [wealthy-baboon] AddToWallet e8c6e51007b1380861188430a4df182699591418060f64d1787bf49c2df19f17  new
+2023-04-02T23:21:54Z [wealthy-baboon] AddToWallet 334a8caeb4eaf1debadc207c7b9439477331e8e6f1ef2739d15ce1e6915f0246  new
+2023-04-02T23:21:54Z UpdateTip: new best=1f51e99501feaba36c02879fe476a239d7df28ee2ce1ebef7373b9ba088d1fce height=31 version=0x20000000 log2_work=6.000000 tx=32 date='2023-04-02T23:21:59Z' progress=1.000000 cache=0.0MiB(31txo)
+2023-04-02T23:21:54Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:54Z UpdateTip: new best=501257c81f61ea8a230fc23f5ca9d371ba42bfbebf75f8d1c7b1b173e339c311 height=32 version=0x20000000 log2_work=6.044394 tx=33 date='2023-04-02T23:22:00Z' progress=1.000000 cache=0.0MiB(32txo)
+2023-04-02T23:21:54Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:54Z UpdateTip: new best=2156097a72647dc7c63d1717ddb9211b47b2a659767dd5a609a32b8922d11b37 height=33 version=0x20000000 log2_work=6.087463 tx=34 date='2023-04-02T23:22:00Z' progress=1.000000 cache=0.0MiB(33txo)
+2023-04-02T23:21:54Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:54Z UpdateTip: new best=451bfe74206d968f2bc24077a6b3959decafdb7485533627d3f9a4a74ccea57b height=34 version=0x20000000 log2_work=6.129283 tx=35 date='2023-04-02T23:22:00Z' progress=1.000000 cache=0.0MiB(34txo)
+2023-04-02T23:21:54Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:54Z UpdateTip: new best=130057b45cad619a3ae23101841777fd6b50076c2200efe72fd63a921b928155 height=35 version=0x20000000 log2_work=6.169925 tx=36 date='2023-04-02T23:22:00Z' progress=1.000000 cache=0.0MiB(35txo)
+2023-04-02T23:21:54Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:54Z UpdateTip: new best=0fe0677024386bec34d70c8bc97e74dd6495200cdfbbf00fbe4efb1ef1b93ccf height=36 version=0x20000000 log2_work=6.209453 tx=37 date='2023-04-02T23:22:00Z' progress=1.000000 cache=0.0MiB(36txo)
+2023-04-02T23:21:54Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:54Z [wealthy-baboon] AddToWallet 4859471457c10e9db9a2e4720cae1e05b1b236824adaf2fa6e4cb24a925297b7  new
+2023-04-02T23:21:54Z [wealthy-baboon] AddToWallet 6a14cf2c111918330ff0b4e9b426c8d0f4205d6246fcca6b5e0833ae1855d4d2  new
+2023-04-02T23:21:54Z [wealthy-baboon] AddToWallet 202524305596da1608f5167d8048bc30c2c428036d22d82e2d38af130ad1067e  new
+2023-04-02T23:21:54Z [wealthy-baboon] AddToWallet 0865790b227398d35e5f87893960fe8f903594b25a485181df7f5839428e1829  new
+2023-04-02T23:21:54Z [wealthy-baboon] AddToWallet d5c718c07a8d9a34b71dc237cb8cf6071a2a29bb5767600c7c2d57f91e0c2ae5  new
+2023-04-02T23:21:55Z [wealthy-baboon] AddToWallet 84323dcf4c228ab141fb71e922c13ce2b92dd77cfcdf31d350d621c919664218  new
+2023-04-02T23:21:55Z UpdateTip: new best=6a8da86a6deabfbd745d6cef27722dd0df431b204ff28b6fc89ebfe6203717b8 height=37 version=0x20000000 log2_work=6.247928 tx=38 date='2023-04-02T23:22:00Z' progress=1.000000 cache=0.0MiB(37txo)
+2023-04-02T23:21:55Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:55Z UpdateTip: new best=4fe0f850e283a8ebd623360b3160d76952420d4fe48df62510040f34d8bb9db8 height=38 version=0x20000000 log2_work=6.285402 tx=39 date='2023-04-02T23:22:01Z' progress=1.000000 cache=0.0MiB(38txo)
+2023-04-02T23:21:55Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:55Z UpdateTip: new best=249ee2ecd00cf670bc7df824fef56d2b99b463e981c40cb2cfe270626dd2019f height=39 version=0x20000000 log2_work=6.321928 tx=40 date='2023-04-02T23:22:01Z' progress=1.000000 cache=0.0MiB(39txo)
+2023-04-02T23:21:55Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:55Z UpdateTip: new best=40e5ca586d910b9f02c2f18c8230bee0ab129f69c0a60c3b56bf48fa1f752708 height=40 version=0x20000000 log2_work=6.357552 tx=41 date='2023-04-02T23:22:01Z' progress=1.000000 cache=0.0MiB(40txo)
+2023-04-02T23:21:55Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:55Z UpdateTip: new best=6685121e1ec1599492cf3a3e8231ac4daa98f7e8d2fc0a4c01eab8583d829352 height=41 version=0x20000000 log2_work=6.392317 tx=42 date='2023-04-02T23:22:01Z' progress=1.000000 cache=0.0MiB(41txo)
+2023-04-02T23:21:55Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:55Z UpdateTip: new best=2ebdd9ef5abb7cc52127a14fd684ebd66baaf63939628f3111fd1d1c6bb72dda height=42 version=0x20000000 log2_work=6.426265 tx=43 date='2023-04-02T23:22:01Z' progress=1.000000 cache=0.0MiB(42txo)
+2023-04-02T23:21:55Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:55Z [wealthy-baboon] AddToWallet f2997b5beb7fe11de8e8ff01c200f00b952c00b3c27a18890af3d4fd17d08808  new
+2023-04-02T23:21:55Z [wealthy-baboon] AddToWallet 01b451f211c4a650da10e915a535f54743992412973327d452241aecbccbf9c7  new
+2023-04-02T23:21:55Z [wealthy-baboon] AddToWallet 2227e63e54cf0ffe6a76781feda779a40af3da37ff113ac13be4375982a3c806  new
+2023-04-02T23:21:55Z [wealthy-baboon] AddToWallet 9f6c75eb73c6ce7bc7238e7c51de826338abcd3e77cc94c420ab736ccda610ae  new
+2023-04-02T23:21:55Z [wealthy-baboon] AddToWallet 0fd43abea3d8e49296be46c573ac34f01a205a10b4754b5eea0b65ac483a523f  new
+2023-04-02T23:21:55Z [wealthy-baboon] AddToWallet 8427a4a4deffd9fb3eb951d5d7f5a9bf76cd848e7d5b5e63944cf9975b220495  new
+2023-04-02T23:21:55Z UpdateTip: new best=383f486831bb40b50b5c16543852349f65c9c0f5dc5466262c1c8bdd01dcdabc height=43 version=0x20000000 log2_work=6.459432 tx=44 date='2023-04-02T23:22:01Z' progress=1.000000 cache=0.0MiB(43txo)
+2023-04-02T23:21:55Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:55Z UpdateTip: new best=54e9ba0430ac462f3db01df983b6672805ae73354bf6ce17f5ae7eb8931c9f06 height=44 version=0x20000000 log2_work=6.491853 tx=45 date='2023-04-02T23:22:02Z' progress=1.000000 cache=0.0MiB(44txo)
+2023-04-02T23:21:55Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:55Z UpdateTip: new best=11ecacb57abf5dd2c095e47971375834a78847dec9b4ae42e3d3706506a2bf57 height=45 version=0x20000000 log2_work=6.523562 tx=46 date='2023-04-02T23:22:02Z' progress=1.000000 cache=0.0MiB(45txo)
+2023-04-02T23:21:55Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:55Z UpdateTip: new best=246497d85227491fa58ec48e2f94e8e61105f3f9b3d6c28ed4a75d3c70e33120 height=46 version=0x20000000 log2_work=6.554589 tx=47 date='2023-04-02T23:22:02Z' progress=1.000000 cache=0.0MiB(46txo)
+2023-04-02T23:21:55Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:55Z UpdateTip: new best=12a846f2fe23d698ec114fde2a5f3f48354a9e1dc876a8d146c25638000fc6c7 height=47 version=0x20000000 log2_work=6.584963 tx=48 date='2023-04-02T23:22:02Z' progress=1.000000 cache=0.0MiB(47txo)
+2023-04-02T23:21:55Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:55Z UpdateTip: new best=2ee3377d9d318c7d3b81bf3570b63241762ded3a46b4d43032d32029bcc15113 height=48 version=0x20000000 log2_work=6.614710 tx=49 date='2023-04-02T23:22:02Z' progress=1.000000 cache=0.0MiB(48txo)
+2023-04-02T23:21:55Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:55Z [wealthy-baboon] AddToWallet 433066b2ee01305e7bf2440ecf924a633f3f0bb5df1396a7bc5aedacf95be676  new
+2023-04-02T23:21:55Z [wealthy-baboon] AddToWallet 4096f06ae0bb10b30ebda8a1a3876bf539418b02282372152f3a9806fc86af50  new
+2023-04-02T23:21:55Z [wealthy-baboon] AddToWallet 1ef2c719cc2f04785e9f1e03a150eee8a7515d1475328a21d6d7540a365d1cbc  new
+2023-04-02T23:21:55Z [wealthy-baboon] AddToWallet e117623a712ccc2aeadeee91cccf15e3a2892da0572065c40cd8ed94f7f96127  new
+2023-04-02T23:21:55Z [wealthy-baboon] AddToWallet 6e14cb0c73ed09a612afad3488f4a6ff4525835b250fbf039ad46de58cc70850  new
+2023-04-02T23:21:55Z [wealthy-baboon] AddToWallet a766ab8ba6e7ae4954ab25f472e0565bef0d7fd7285aede4068b38430801d136  new
+2023-04-02T23:21:55Z UpdateTip: new best=4ce2cb926ce7cfbfa8ccd4c3255cb2b6bf2c6c273df440e139845f1addbef355 height=49 version=0x20000000 log2_work=6.643856 tx=50 date='2023-04-02T23:22:02Z' progress=1.000000 cache=0.0MiB(49txo)
+2023-04-02T23:21:55Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:55Z UpdateTip: new best=64df3c8b2a825af581ec5912dbe394fc83a7577e15c3614b3e0652f6b718394e height=50 version=0x20000000 log2_work=6.672425 tx=51 date='2023-04-02T23:22:03Z' progress=1.000000 cache=0.0MiB(50txo)
+2023-04-02T23:21:55Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:55Z UpdateTip: new best=135f635323dbb96e0be2765b44222af1129f4ec0763af26da651a141c8092ecf height=51 version=0x20000000 log2_work=6.700440 tx=52 date='2023-04-02T23:22:03Z' progress=1.000000 cache=0.0MiB(51txo)
+2023-04-02T23:21:55Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:55Z UpdateTip: new best=414cff2fe92948a9d21531c2516de0ec08ecfb44d32ffcccdcbdafa7be781d7b height=52 version=0x20000000 log2_work=6.727920 tx=53 date='2023-04-02T23:22:03Z' progress=1.000000 cache=0.0MiB(52txo)
+2023-04-02T23:21:55Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:55Z UpdateTip: new best=656d275f0a7c9c2b3dd6f5856f7ac42d494c37ba8ad1bddd648b3823fde99220 height=53 version=0x20000000 log2_work=6.754888 tx=54 date='2023-04-02T23:22:03Z' progress=1.000000 cache=0.0MiB(53txo)
+2023-04-02T23:21:55Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:55Z UpdateTip: new best=3db13eff1f1ec22ceed9a84a6d6063373dbd794691249d9357cd68c4735f3c95 height=54 version=0x20000000 log2_work=6.781360 tx=55 date='2023-04-02T23:22:03Z' progress=1.000000 cache=0.0MiB(54txo)
+2023-04-02T23:21:55Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:55Z [wealthy-baboon] AddToWallet 8f4d9753648a410cf1e859d0b7d22f5652327dbe7c696bc32cb7eb220f5ca96e  new
+2023-04-02T23:21:55Z [wealthy-baboon] AddToWallet 9418a9e34d10c837ad6db82ecbfd598f6382166fcccdbe52271ee372d295bcd0  new
+2023-04-02T23:21:55Z [wealthy-baboon] AddToWallet afaa10a7846a824f30ec46c2329834b35b9032d62f7c3e94acb5c2f07deedd4a  new
+2023-04-02T23:21:55Z [wealthy-baboon] AddToWallet e3481db23d795409800f5007c2b94603ea3e8b79aee461d829123a5201eb5520  new
+2023-04-02T23:21:55Z [wealthy-baboon] AddToWallet 36195edfa3074bed7625cd5c29c2b0bc87444cc88a12f2ad5376de33ccb83ca4  new
+2023-04-02T23:21:56Z [wealthy-baboon] AddToWallet 458a3baf4492159bfb928e723c605edce18009f97e1c6a0fe784d0af53db444a  new
+2023-04-02T23:21:56Z UpdateTip: new best=11ff11f05fad931d7f963f735d1ee3b609cd4f04c730b6210bb26cfb0481bd55 height=55 version=0x20000000 log2_work=6.807355 tx=56 date='2023-04-02T23:22:03Z' progress=1.000000 cache=0.0MiB(55txo)
+2023-04-02T23:21:56Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:56Z UpdateTip: new best=607997c5dc8049c06d3a8126de0585bd0b696c21587bca563336f85805847d2f height=56 version=0x20000000 log2_work=6.832890 tx=57 date='2023-04-02T23:22:04Z' progress=1.000000 cache=0.0MiB(56txo)
+2023-04-02T23:21:56Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:56Z UpdateTip: new best=7e13111ea7c2610c639e19128e20debdf7e046ddb864f8cb75e163876301815a height=57 version=0x20000000 log2_work=6.857981 tx=58 date='2023-04-02T23:22:04Z' progress=1.000000 cache=0.0MiB(57txo)
+2023-04-02T23:21:56Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:56Z UpdateTip: new best=295a47d20b8a414cb9c34179d1f0d89f5e939e8588f47d104d2d199394451019 height=58 version=0x20000000 log2_work=6.882643 tx=59 date='2023-04-02T23:22:04Z' progress=1.000000 cache=0.0MiB(58txo)
+2023-04-02T23:21:56Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:56Z UpdateTip: new best=4368debedf6df3cdf356b870c80ea5dd96a6b7152b86fdc9cc77334d76183df7 height=59 version=0x20000000 log2_work=6.906891 tx=60 date='2023-04-02T23:22:04Z' progress=1.000000 cache=0.0MiB(59txo)
+2023-04-02T23:21:56Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:56Z UpdateTip: new best=0b37acab615666c11723ddcd857d887ccac065bff4b2a5c5a7ddb9ba8bb105cc height=60 version=0x20000000 log2_work=6.930737 tx=61 date='2023-04-02T23:22:04Z' progress=1.000000 cache=0.0MiB(60txo)
+2023-04-02T23:21:56Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:56Z [wealthy-baboon] AddToWallet 76fcf16445bab359239621f93a4ca73d5e8612609d088052de4d5cde71787ad8  new
+2023-04-02T23:21:56Z [wealthy-baboon] AddToWallet 9d4bf986987fdaf58776546c7d10efa32940bf2b20c8c33cb5c27f50b88e8c96  new
+2023-04-02T23:21:56Z [wealthy-baboon] AddToWallet 0beaefc987c6447510e68f250fe3a80a190bfbed08ea7227ee3320d857662c65  new
+2023-04-02T23:21:56Z [wealthy-baboon] AddToWallet 3bc593eb74b0aaa6895e220e1735c6d19e31bed0bbb697968d8c3c8df4925384  new
+2023-04-02T23:21:56Z [wealthy-baboon] AddToWallet b3566aa21e5da59940f9c3cd8ebd01e86d1e4ddad957e6b87c4b8869618bde36  new
+2023-04-02T23:21:56Z [wealthy-baboon] AddToWallet 0bf5cc7f1a518cfe7596df2b54e95c25f2e412a1ae43fb058860af727bde217c  new
+2023-04-02T23:21:56Z UpdateTip: new best=2af6d6f27084161d5bc23191c1930c6bf5cff2fa81b8b3de5d04332bf0b7e783 height=61 version=0x20000000 log2_work=6.954196 tx=62 date='2023-04-02T23:22:04Z' progress=1.000000 cache=0.0MiB(61txo)
+2023-04-02T23:21:56Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:56Z UpdateTip: new best=532d1282dd14b90a5a11a21bae991cadb06b29a9b36b006cf2b511251539db3a height=62 version=0x20000000 log2_work=6.977280 tx=63 date='2023-04-02T23:22:05Z' progress=1.000000 cache=0.0MiB(62txo)
+2023-04-02T23:21:56Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:56Z UpdateTip: new best=75b4462ea0babd2dab16309abd2af211cbd40aa3753fe644db033a5d62d0d79a height=63 version=0x20000000 log2_work=7.000000 tx=64 date='2023-04-02T23:22:05Z' progress=1.000000 cache=0.0MiB(63txo)
+2023-04-02T23:21:56Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:56Z UpdateTip: new best=52b14c4a45132cc447363f9f2dfdce5c4c9f46e0d21d3eecb4f29bf457a05583 height=64 version=0x20000000 log2_work=7.022368 tx=65 date='2023-04-02T23:22:05Z' progress=1.000000 cache=0.0MiB(64txo)
+2023-04-02T23:21:56Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:56Z UpdateTip: new best=2073781065ea7d85ac7cb97036c840b5d569aa6af5802b9d35fc9002e42599fa height=65 version=0x20000000 log2_work=7.044394 tx=66 date='2023-04-02T23:22:05Z' progress=1.000000 cache=0.0MiB(65txo)
+2023-04-02T23:21:56Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:56Z UpdateTip: new best=6c7e4cd0e99e8274567795e5c63cda874266cf58d99e6f1f5e34822c58ba5758 height=66 version=0x20000000 log2_work=7.066089 tx=67 date='2023-04-02T23:22:05Z' progress=1.000000 cache=0.0MiB(66txo)
+2023-04-02T23:21:56Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:56Z [wealthy-baboon] AddToWallet 509565870cc73a16bd283e9933140764f02b1cdfb13fa442abf6ecd5341e1f87  new
+2023-04-02T23:21:56Z [wealthy-baboon] AddToWallet a26a64fcdfd273cf0289d024bd8df6a620c65c17ba8bb4db190d577dba0b8542  new
+2023-04-02T23:21:56Z [wealthy-baboon] AddToWallet 66bd3708156a89dd33925b868008cd9f8c6fd74b9b5f6f1bddabd578db7d892d  new
+2023-04-02T23:21:56Z [wealthy-baboon] AddToWallet e07f89260f2427a7f043a2a5f4f3a7e7d12eccbb583296a4b1d9e0215eff6fff  new
+2023-04-02T23:21:56Z [wealthy-baboon] AddToWallet a6622116a0619713aed4c5db1079f02120b84465768ef66b17aac9e12d579892  new
+2023-04-02T23:21:56Z [wealthy-baboon] AddToWallet f755b30f851b01a57e7ef84bc36f419056446178c97ab5656d6b89a104d28c08  new
+2023-04-02T23:21:56Z UpdateTip: new best=6c6a20c22cd7eaa56d41010c9ec3e4be5d2262efd2c8233e0738c374ebb36560 height=67 version=0x20000000 log2_work=7.087463 tx=68 date='2023-04-02T23:22:05Z' progress=1.000000 cache=0.0MiB(67txo)
+2023-04-02T23:21:56Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:56Z UpdateTip: new best=3f1d2e2080b4f68b29c860f05c2457f8bc6d3c0923c9f456d964c72a85980d7b height=68 version=0x20000000 log2_work=7.108524 tx=69 date='2023-04-02T23:22:06Z' progress=1.000000 cache=0.0MiB(68txo)
+2023-04-02T23:21:56Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:56Z UpdateTip: new best=335e2441829c1849109950df4a9fa6307cfccb6b172fda2bc40510087496e2c1 height=69 version=0x20000000 log2_work=7.129283 tx=70 date='2023-04-02T23:22:06Z' progress=1.000000 cache=0.0MiB(69txo)
+2023-04-02T23:21:56Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:56Z UpdateTip: new best=33235c1dffd1fe328f988c2b14aecc6f8ac122d3885950ffa8d2773c9639496c height=70 version=0x20000000 log2_work=7.149747 tx=71 date='2023-04-02T23:22:06Z' progress=1.000000 cache=0.0MiB(70txo)
+2023-04-02T23:21:56Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:56Z UpdateTip: new best=70d3563e0ff3b6348329d9fd692c5f1e59401918869211965e559b92a1182585 height=71 version=0x20000000 log2_work=7.169925 tx=72 date='2023-04-02T23:22:06Z' progress=1.000000 cache=0.0MiB(71txo)
+2023-04-02T23:21:56Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:56Z UpdateTip: new best=19ccdc16bbfc7176a5ca912d3f0be51cd4e9a8a21772f2cb9d0df16b10344f37 height=72 version=0x20000000 log2_work=7.189825 tx=73 date='2023-04-02T23:22:06Z' progress=1.000000 cache=0.0MiB(72txo)
+2023-04-02T23:21:56Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:56Z [wealthy-baboon] AddToWallet 02d40ff1278c5466a4c2641b07b6f8a3cf19c1f422618c49395e42dbb7571e40  new
+2023-04-02T23:21:56Z [wealthy-baboon] AddToWallet b39fd053bbe77a0ae44c4771b9f4e5376db55b735bcbb10d3d734b5f58b66234  new
+2023-04-02T23:21:56Z [wealthy-baboon] AddToWallet 637afd29e2b339125f00a7feb6681b6aaff98ecc325984849681a5d49a0fec15  new
+2023-04-02T23:21:56Z [wealthy-baboon] AddToWallet 8acee145585466ffbd36226b1b7caa61a0708c6b341a803b127086871ad02361  new
+2023-04-02T23:21:56Z [wealthy-baboon] AddToWallet 2242912b9446074f8f4eba24f8c811356434613032ba05d46cae77d5698ac518  new
+2023-04-02T23:21:56Z [wealthy-baboon] AddToWallet 7e6b76c99cf8ab2af63d46a2bad1962dfa6260d6b8fff7dc81e20f10bf9a08f5  new
+2023-04-02T23:21:57Z UpdateTip: new best=4b2db7419fd36971071ea628beade916b244f14f0fa3d06920dec1b3abb43cea height=73 version=0x20000000 log2_work=7.209453 tx=74 date='2023-04-02T23:22:06Z' progress=1.000000 cache=0.0MiB(73txo)
+2023-04-02T23:21:57Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:57Z UpdateTip: new best=4b7c98d31914fa6b920eeb3957a6807c3ec33fee3bc7f2e654f2ac4b5e1d9bce height=74 version=0x20000000 log2_work=7.228819 tx=75 date='2023-04-02T23:22:07Z' progress=1.000000 cache=0.0MiB(74txo)
+2023-04-02T23:21:57Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:57Z UpdateTip: new best=4aba4afeb43b8267bbbaa3516ea5509de373f0c02ed35c71f370a6f5f3567329 height=75 version=0x20000000 log2_work=7.247928 tx=76 date='2023-04-02T23:22:07Z' progress=1.000000 cache=0.0MiB(75txo)
+2023-04-02T23:21:57Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:57Z UpdateTip: new best=514147814a83f2fb2fee97aaa5848fbf536ba82454ebefbce55c784ac06de376 height=76 version=0x20000000 log2_work=7.266787 tx=77 date='2023-04-02T23:22:07Z' progress=1.000000 cache=0.0MiB(76txo)
+2023-04-02T23:21:57Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:57Z UpdateTip: new best=0966a3acb0439ca3034d4695c1f02fab9f2b6fa5e12e3965327c3c7520381ae7 height=77 version=0x20000000 log2_work=7.285402 tx=78 date='2023-04-02T23:22:07Z' progress=1.000000 cache=0.0MiB(77txo)
+2023-04-02T23:21:57Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:57Z UpdateTip: new best=2e6bbbfeab6393b2608a5bb164d102d66970bf3c211842ebeecaa46735de247d height=78 version=0x20000000 log2_work=7.303781 tx=79 date='2023-04-02T23:22:07Z' progress=1.000000 cache=0.0MiB(78txo)
+2023-04-02T23:21:57Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:57Z [wealthy-baboon] AddToWallet 59cfd46208c3db991a04d90cad287767e6210c4b66b8d5571e165f90e40073e5  new
+2023-04-02T23:21:57Z [wealthy-baboon] AddToWallet 7af64fb485d000131f0beb704422a6159370c59c3306e709880cb2829a1e3c9c  new
+2023-04-02T23:21:57Z [wealthy-baboon] AddToWallet 712874412385b4903a08c6bbf98336d82d9aef7f3a496eca8565a3342a47f0e3  new
+2023-04-02T23:21:57Z [wealthy-baboon] AddToWallet b5438741692b57d9d75bdb745592917b7e08f867d037069465e9660261266639  new
+2023-04-02T23:21:57Z [wealthy-baboon] AddToWallet 5fe35ab6dffec2f34d273718f6346f5081317d2a80612b8b07dcf12547a0a25e  new
+2023-04-02T23:21:57Z [wealthy-baboon] AddToWallet ec51c398b5e47154681c669946d54054d4c41edfd6737a89cd55c4bde1c246bd  new
+2023-04-02T23:21:57Z UpdateTip: new best=7c0b5065d8f996a783900f60923e9c51dd483faa853c7795515d3d5a541c3cc3 height=79 version=0x20000000 log2_work=7.321928 tx=80 date='2023-04-02T23:22:07Z' progress=1.000000 cache=0.0MiB(79txo)
+2023-04-02T23:21:57Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:57Z UpdateTip: new best=7c4b2f5abf9b8b2204f1e66ad4b7e856807d7dbb673c93cad3394140e0a9b5a4 height=80 version=0x20000000 log2_work=7.339850 tx=81 date='2023-04-02T23:22:08Z' progress=1.000000 cache=0.0MiB(80txo)
+2023-04-02T23:21:57Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:57Z UpdateTip: new best=3a94c95f4375000a171a53bea8fbbe39ae128723f5d926b11055d2dbaf458b94 height=81 version=0x20000000 log2_work=7.357552 tx=82 date='2023-04-02T23:22:08Z' progress=1.000000 cache=0.0MiB(81txo)
+2023-04-02T23:21:57Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:57Z UpdateTip: new best=19497c87ee0addc5532c7da8c25bdd3e325f420b14211ebda74fc474c673906d height=82 version=0x20000000 log2_work=7.375039 tx=83 date='2023-04-02T23:22:08Z' progress=1.000000 cache=0.0MiB(82txo)
+2023-04-02T23:21:57Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:57Z UpdateTip: new best=150725859e11ef7b464219b965f3ea870fa6a6fd2eef02ffc9081c5990009637 height=83 version=0x20000000 log2_work=7.392317 tx=84 date='2023-04-02T23:22:08Z' progress=1.000000 cache=0.0MiB(83txo)
+2023-04-02T23:21:57Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:57Z UpdateTip: new best=4bb9733004b8faca282dea76cad215212da9e7f56962cffa2bf7b5e76c430199 height=84 version=0x20000000 log2_work=7.409391 tx=85 date='2023-04-02T23:22:08Z' progress=1.000000 cache=0.0MiB(84txo)
+2023-04-02T23:21:57Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:57Z [wealthy-baboon] AddToWallet 34dd75721023a2ea0520e19278428daf8b17ebfffaaa08d70382db15e2359a61  new
+2023-04-02T23:21:57Z [wealthy-baboon] AddToWallet 24debdd1c9d451219ac91fd03ad8db8d13bdfbd001d58395cd641ef77cb8ec7a  new
+2023-04-02T23:21:57Z [wealthy-baboon] AddToWallet 89d3ad9628742fa60ac723991b486f79805ac690829fc9d4b3fa0ae39834e0ca  new
+2023-04-02T23:21:57Z [wealthy-baboon] AddToWallet 08227bd5dbe0079f93c06ce108977e1c41008f8867f82c7d645ca9fa1e755b32  new
+2023-04-02T23:21:57Z [wealthy-baboon] AddToWallet 1295a575903d2776a8fb4ad18e5a3f478f2f6406e58a7e89d1216cac20392316  new
+2023-04-02T23:21:57Z [wealthy-baboon] AddToWallet 54fb639bf9776318ddc7c6dc98c1fa4f1f84131d36bc034abebecc85e5219107  new
+2023-04-02T23:21:57Z UpdateTip: new best=225f09445da7c38af0c6db5da651aaf2c8892beceb0f4d1d1380484f2c856c7c height=85 version=0x20000000 log2_work=7.426265 tx=86 date='2023-04-02T23:22:08Z' progress=1.000000 cache=0.0MiB(85txo)
+2023-04-02T23:21:57Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:57Z UpdateTip: new best=5d805d4e35959bf983e3ca862b7d9fa6f7726247a023111917682b46e2a940ca height=86 version=0x20000000 log2_work=7.442943 tx=87 date='2023-04-02T23:22:09Z' progress=1.000000 cache=0.0MiB(86txo)
+2023-04-02T23:21:57Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:57Z UpdateTip: new best=5c94297e5f2275668c942b34ba935300ddf72a58e0da1cb37b11e3601a8de998 height=87 version=0x20000000 log2_work=7.459432 tx=88 date='2023-04-02T23:22:09Z' progress=1.000000 cache=0.0MiB(87txo)
+2023-04-02T23:21:57Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:57Z UpdateTip: new best=3beeb43529ebd2e44113b1fdc372b6d16e66ad14c3b1e90a3dc9f1f838c2064f height=88 version=0x20000000 log2_work=7.475733 tx=89 date='2023-04-02T23:22:09Z' progress=1.000000 cache=0.0MiB(88txo)
+2023-04-02T23:21:57Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:57Z UpdateTip: new best=7314f8d1c39cb3ff09ad69546c0983a5a2c6b85988359c0b1975c9b27130f175 height=89 version=0x20000000 log2_work=7.491853 tx=90 date='2023-04-02T23:22:09Z' progress=1.000000 cache=0.0MiB(89txo)
+2023-04-02T23:21:57Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:57Z UpdateTip: new best=633725f175403855293953e8a7f4ee74a6e2c5766884ea6292c9badb98ce5e0a height=90 version=0x20000000 log2_work=7.507795 tx=91 date='2023-04-02T23:22:09Z' progress=1.000000 cache=0.0MiB(90txo)
+2023-04-02T23:21:57Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:57Z [wealthy-baboon] AddToWallet 1e98a6a85b871b44e21f473e1553f4793c616d516db6bd5a34eb4eb9848115d0  new
+2023-04-02T23:21:57Z [wealthy-baboon] AddToWallet 5b592ef9151aefd30bcf8eb812ab9b4e5fb746b32da0d37325b77dc821999601  new
+2023-04-02T23:21:57Z [wealthy-baboon] AddToWallet 262a5cb8b4fb5dfb306fbdf147c68807b0adc56324834c1cd00489f75509afab  new
+2023-04-02T23:21:57Z [wealthy-baboon] AddToWallet 0bc7c4c06b615592b21c8e1422c42219fbf4192cf8db9dc52ceac5d645c80a0f  new
+2023-04-02T23:21:57Z [wealthy-baboon] AddToWallet 02cb3c147d5350cb1477869842d66d9250b0f09316fbf458df7c7132098e2bd7  new
+2023-04-02T23:21:57Z [wealthy-baboon] AddToWallet 06b1730f9a663afc25a91d831460c6a162ae1ded11bcceccd401ffb7a2a0e9d9  new
+2023-04-02T23:21:57Z UpdateTip: new best=2a35452115bea5de9edb08f19d528a066e4a858dfbd2299f31c224651fd1c60d height=91 version=0x20000000 log2_work=7.523562 tx=92 date='2023-04-02T23:22:09Z' progress=1.000000 cache=0.0MiB(91txo)
+2023-04-02T23:21:57Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:57Z UpdateTip: new best=170e666ec23589747e9da9b28ed88b36743be476a8ca83eb97aada9ec613d680 height=92 version=0x20000000 log2_work=7.539159 tx=93 date='2023-04-02T23:22:10Z' progress=1.000000 cache=0.0MiB(92txo)
+2023-04-02T23:21:57Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:57Z UpdateTip: new best=548e52d693166e6ccd9fd469ce338780bd17244d25714d4bccc3c2375b7c6e17 height=93 version=0x20000000 log2_work=7.554589 tx=94 date='2023-04-02T23:22:10Z' progress=1.000000 cache=0.0MiB(93txo)
+2023-04-02T23:21:57Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:57Z UpdateTip: new best=4b77a2fde44d9766fcf39bc17760644833153ff96c517070f0653077631d863d height=94 version=0x20000000 log2_work=7.569856 tx=95 date='2023-04-02T23:22:10Z' progress=1.000000 cache=0.0MiB(94txo)
+2023-04-02T23:21:57Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:57Z UpdateTip: new best=7462ad03813494d966deee6d7ecf14c3d79502e65a70cdf91b51b1d25ecf65c9 height=95 version=0x20000000 log2_work=7.584963 tx=96 date='2023-04-02T23:22:10Z' progress=1.000000 cache=0.0MiB(95txo)
+2023-04-02T23:21:57Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:57Z UpdateTip: new best=0f4498c8e8cbda3ae2f7f61477fe6afe7f58c5369b6b3d09f2f6236c205b5998 height=96 version=0x20000000 log2_work=7.599913 tx=97 date='2023-04-02T23:22:10Z' progress=1.000000 cache=0.0MiB(96txo)
+2023-04-02T23:21:57Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:57Z [wealthy-baboon] AddToWallet ac06fe1b2d0bbfe39887664d3fe95905d15af82ebb97ea7a05c4528d7e74a972  new
+2023-04-02T23:21:58Z [wealthy-baboon] AddToWallet 2591798e93a86ad0032aa5eb5359aa0e13d0b62d140643942e40bed3b7f86e3a  new
+2023-04-02T23:21:58Z [wealthy-baboon] AddToWallet bc544c2569413d37956e04cafc14f2fc52d2aaef60a53fba4d90783ad40d5b3e  new
+2023-04-02T23:21:58Z [wealthy-baboon] AddToWallet ba97f1d84cce9cea0d318cbb5bdbf4780ad95c9942f0e78162dd9267642359df  new
+2023-04-02T23:21:58Z [wealthy-baboon] AddToWallet 0c43c55c74988dc19a8c38bad07678e81167fe11a34b63bda58c2aa145f90ff6  new
+2023-04-02T23:21:58Z [wealthy-baboon] AddToWallet b8ddb6004e70d9643ab66da6348fb29ee4e61cd4e3a7bba67b0ad282522451fb  new
+2023-04-02T23:21:58Z UpdateTip: new best=1ec05d156df2fe1813e4c2f53666654a76213860f60fdcb19862c2bc26dedc13 height=97 version=0x20000000 log2_work=7.614710 tx=98 date='2023-04-02T23:22:10Z' progress=1.000000 cache=0.0MiB(97txo)
+2023-04-02T23:21:58Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:58Z UpdateTip: new best=74a4e5b27cf8be3912455878b4e9cde78194e59e8e83c54b2326673054b6fab4 height=98 version=0x20000000 log2_work=7.629357 tx=99 date='2023-04-02T23:22:11Z' progress=1.000000 cache=0.0MiB(98txo)
+2023-04-02T23:21:58Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:58Z UpdateTip: new best=37647de8a749f904cfad859dc307071130f88a5e777bccbff295b78624a7b6ac height=99 version=0x20000000 log2_work=7.643856 tx=100 date='2023-04-02T23:22:11Z' progress=1.000000 cache=0.0MiB(99txo)
+2023-04-02T23:21:58Z CreateNewBlock(): block weight: 888 txs: 0 fees: 0 sigops 400
+2023-04-02T23:21:58Z UpdateTip: new best=5791450fb39874edf93e6128f58c94fa4170a67a72211148656bfabcb33912f9 height=100 version=0x20000000 log2_work=7.658211 tx=101 date='2023-04-02T23:22:11Z' progress=1.000000 cache=0.0MiB(100txo)
+2023-04-02T23:21:58Z [wealthy-baboon] AddToWallet f98cf62e354e293b3a1e99b08b11a30e3415c2aa3b730e028b99abfc858819ba  new
+2023-04-02T23:21:58Z [wealthy-baboon] AddToWallet abee8ea3628bfa6c00f8144b8ae4d64937b9f433732a546a14da4052acd2bf45  new
+2023-04-02T23:21:58Z [wealthy-baboon] AddToWallet 3ac052b208ac782938acd36f4330f9025ec07d9b683333414fff3043ccc92604  new
+2023-04-02T23:21:58Z [wealthy-baboon] AddToWallet fec22aa6a47e8a699ddb25ad2f90402f346c7da16ab2d66402d642a25fbe5892  new
+2023-04-02T23:52:43Z Potential stale tip detected, will try using extra outbound peer (last tip update: 1845 seconds ago)
+2023-04-03T00:03:13Z Potential stale tip detected, will try using extra outbound peer (last tip update: 2475 seconds ago)
+2023-04-03T00:13:44Z Potential stale tip detected, will try using extra outbound peer (last tip update: 3106 seconds ago)
+2023-04-03T00:24:14Z Potential stale tip detected, will try using extra outbound peer (last tip update: 3736 seconds ago)
+2023-04-03T00:34:44Z Potential stale tip detected, will try using extra outbound peer (last tip update: 4366 seconds ago)
+
+
+
+
+
+2023-04-03T00:41:18Z Bitcoin Core version v24.0.1 (release build)
+2023-04-03T00:41:18Z Using the 'arm_shani(1way,2way)' SHA256 implementation
+2023-04-03T00:41:18Z Default data directory /Users/matthiasdebernardini/Library/Application Support/Bitcoin
+2023-04-03T00:41:18Z Using data directory /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest
+2023-04-03T00:41:18Z Config file: /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/bitcoin.conf
+2023-04-03T00:41:18Z Config file arg: rpcpassword=****
+2023-04-03T00:41:18Z Config file arg: rpcuser=****
+2023-04-03T00:41:18Z Config file arg: server="1"
+2023-04-03T00:41:18Z Command-line arg: conf="/Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/bitcoin.conf"
+2023-04-03T00:41:18Z Command-line arg: daemon=""
+2023-04-03T00:41:18Z Command-line arg: datadir="/Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1"
+2023-04-03T00:41:18Z Command-line arg: port="19000"
+2023-04-03T00:41:18Z Command-line arg: regtest=""
+2023-04-03T00:41:18Z Command-line arg: rpcport="19001"
+2023-04-03T00:41:18Z Using at most 125 automatic connections (285 file descriptors available)
+2023-04-03T00:41:18Z Using 16 MiB out of 16 MiB requested for signature cache, able to store 524288 elements
+2023-04-03T00:41:18Z Using 16 MiB out of 16 MiB requested for script execution cache, able to store 524288 elements
+2023-04-03T00:41:18Z Script verification uses 7 additional threads
+2023-04-03T00:41:18Z scheduler thread start
+2023-04-03T00:41:18Z [http] creating work queue of depth 16
+2023-04-03T00:41:18Z Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcauth for rpcauth auth generation.
+2023-04-03T00:41:18Z [http] starting 4 worker threads
+2023-04-03T00:41:18Z Using wallet directory /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/wallets
+2023-04-03T00:41:18Z init message: Verifying wallet(s)…
+2023-04-03T00:41:18Z Using /16 prefix for IP bucketing
+2023-04-03T00:41:18Z init message: Loading P2P addresses…
+2023-04-03T00:41:18Z Loaded 0 addresses from peers.dat  0ms
+2023-04-03T00:41:18Z init message: Loading banlist…
+2023-04-03T00:41:18Z SetNetworkActive: true
+2023-04-03T00:41:18Z Cache configuration:
+2023-04-03T00:41:18Z * Using 2.0 MiB for block index database
+2023-04-03T00:41:18Z * Using 8.0 MiB for chain state database
+2023-04-03T00:41:18Z * Using 440.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2023-04-03T00:41:18Z init message: Loading block index…
+2023-04-03T00:41:18Z Validating signatures for all blocks.
+2023-04-03T00:41:18Z Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2023-04-03T00:41:18Z Switching active chainstate to Chainstate [ibd] @ height -1 (null)
+2023-04-03T00:41:18Z Opening LevelDB in /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/blocks/index
+2023-04-03T00:41:18Z Opened LevelDB successfully
+2023-04-03T00:41:18Z Using obfuscation key for /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/blocks/index: 0000000000000000
+2023-04-03T00:41:18Z LoadBlockIndexDB: last block file = 0
+2023-04-03T00:41:18Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=1, size=293, heights=0...0, time=2011-02-02...2011-02-02)
+2023-04-03T00:41:18Z Checking all blk files are present...
+2023-04-03T00:41:18Z Opening LevelDB in /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/chainstate
+2023-04-03T00:41:18Z Opened LevelDB successfully
+2023-04-03T00:41:18Z Using obfuscation key for /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/chainstate: 237d2ae10b9c3d9f
+2023-04-03T00:41:18Z Loaded best chain: hashBestChain=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 date=2011-02-02T23:16:42Z progress=1.000000
+2023-04-03T00:41:18Z init message: Verifying blocks…
+2023-04-03T00:41:18Z  block index              43ms
+2023-04-03T00:41:18Z Setting NODE_NETWORK on non-prune mode
+2023-04-03T00:41:18Z block tree size = 1
+2023-04-03T00:41:18Z nBestHeight = 0
+2023-04-03T00:41:18Z loadblk thread start
+2023-04-03T00:41:18Z Imported mempool transactions from disk: 0 succeeded, 0 failed, 0 expired, 0 already there, 0 waiting for initial broadcast
+2023-04-03T00:41:18Z loadblk thread exit
+2023-04-03T00:41:18Z torcontrol thread start
+2023-04-03T00:41:18Z Bound to 127.0.0.1:18445
+2023-04-03T00:41:18Z Bound to [::]:19000
+2023-04-03T00:41:18Z Bound to 0.0.0.0:19000
+2023-04-03T00:41:18Z 0 block-relay-only anchors will be tried for connections.
+2023-04-03T00:41:18Z init message: Starting network threads…
+2023-04-03T00:41:18Z net thread start
+2023-04-03T00:41:18Z dnsseed thread start
+2023-04-03T00:41:18Z Loading addresses from DNS seed dummySeed.invalid.
+2023-04-03T00:41:18Z addcon thread start
+2023-04-03T00:41:18Z opencon thread start
+2023-04-03T00:41:18Z msghand thread start
+2023-04-03T00:41:18Z init message: Done loading
+2023-04-03T00:41:18Z 0 addresses found from DNS seeds
+2023-04-03T00:41:18Z dnsseed thread exit
+2023-04-03T00:42:19Z Adding fixed seeds as 60 seconds have passed and addrman is empty
+2023-04-03T00:42:19Z Added 0 fixed seeds from reachable networks.
+2023-04-03T00:42:34Z Using SQLite Version 3.41.1
+2023-04-03T00:42:34Z Using wallet /Users/matthiasdebernardini/Documents/gits/payjoin-pyoxide/bitcoinNode1/regtest/wallets/working-crappie
+2023-04-03T00:42:34Z init message: Loading wallet…
+2023-04-03T00:42:34Z [working-crappie] Wallet file version = 10500, last client version = 240001
+2023-04-03T00:42:34Z [working-crappie] Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total. Unknown wallet records: 0
+2023-04-03T00:42:34Z [working-crappie] Setting minversion to 169900
+2023-04-03T00:42:34Z [working-crappie] Setting spkMan to active: id = 51aee70548fbc2e90ad1e4bff5b86121697c736d44bb29f5a9b03244f0c1c7a1, type = legacy, internal = false
+2023-04-03T00:42:34Z [working-crappie] Setting spkMan to active: id = 7e7b672e79c59718b982f4e5040645d64e252b2dbc008ef52312185029ef5fb8, type = p2sh-segwit, internal = false
+2023-04-03T00:42:35Z [working-crappie] Setting spkMan to active: id = a83b15bd44500e32e48173732430041437ea392dbb1f392c30a5a065b997f3c2, type = bech32, internal = false
+2023-04-03T00:42:35Z [working-crappie] Setting spkMan to active: id = b4d8796ffaaa84c5c2c58fb1c0ec8038273a0a262ffe5033ca326c7fc1c43f71, type = bech32m, internal = false
+2023-04-03T00:42:35Z [working-crappie] Setting spkMan to active: id = 30edd16ce61fc11d37d621e3d310ab645701ac9537a06d384d7ced67d2de099a, type = legacy, internal = true
+2023-04-03T00:42:35Z [working-crappie] Setting spkMan to active: id = 4ec55e5db87ea30a9fa856fe305b11334d06774ec85a1d7459ff50b765132760, type = p2sh-segwit, internal = true
+2023-04-03T00:42:35Z [working-crappie] Setting spkMan to active: id = 3869c91f39ffa0ba56807621bde8ce7f0278b329824c5cc71b90e845301e4e55, type = bech32, internal = true
+2023-04-03T00:42:36Z [working-crappie] Setting spkMan to active: id = e2457b61ec8acbd817563b68c376ff0e2df849707507ab439b0f2d056a6cc3d4, type = bech32m, internal = true
+2023-04-03T00:42:36Z [working-crappie] Wallet completed loading in            1678ms
+2023-04-03T00:42:36Z [working-crappie] setKeyPool.size() = 8000
+2023-04-03T00:42:36Z [working-crappie] mapWallet.size() = 0
+2023-04-03T00:42:36Z [working-crappie] m_address_book.size() = 0
+2023-04-03T01:13:33Z Potential stale tip detected, will try using extra outbound peer (last tip update: 1890 seconds ago)
+2023-04-03T01:24:04Z Potential stale tip detected, will try using extra outbound peer (last tip update: 2521 seconds ago)
+2023-04-03T01:34:34Z Potential stale tip detected, will try using extra outbound peer (last tip update: 3151 seconds ago)

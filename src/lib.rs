@@ -25,13 +25,8 @@ fn payjoin_pyoxide(_py: Python, m: &PyModule) -> PyResult<()> {
 }
 
 #[pyfunction]
-pub fn send_payjoin(
-    bitcoind: &str,
-    user: &str,
-    pass: &str,
-    bip21: &str,
-    danger_accept_invalid_certs: bool,
-) {
+pub fn send_payjoin(bitcoind: &str, user: &str, pass: &str, bip21: &str) {
+    let danger_accept_invalid_certs = true;
     let bitcoind = bitcoincore_rpc::Client::new(
         bitcoind,
         bitcoincore_rpc::Auth::UserPass(user.to_string(), pass.to_string()),
@@ -135,7 +130,7 @@ pub fn receive_payjoin(
     println!("Awaiting payjoin at BIP 21 Payjoin Uri:");
     println!("{}", pj_uri_string);
 
-    rouille::start_server("0.0.0.0:3000", move |req| {
+    rouille::start_server("127.0.0.1:3000", move |req| {
         let headers = Headers(req.headers());
         let proposal = payjoin::receiver::UncheckedProposal::from_request(
             req.data().unwrap(),
