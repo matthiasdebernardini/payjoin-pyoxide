@@ -9,6 +9,6 @@ python bindings for payjoin, enables bip78 compliance in your python apps
 - `$ echo "trusted-users = root ubuntu" | sudo tee -a /etc/nix/nix.conf && sudo pkill nix-daemon`
 - `$ cachix use devenv`
 - `$ nix-env -if https://github.com/cachix/devenv/tarball/latest`
-- `$ git clone https://github.com/AnchorWatch-Trident/trident-api-oxide.git`
-- `$ cd trident-api-oxide`
+- `$ git clone repo`
+- `$ cd repo`
 - `$ devenv shell`
